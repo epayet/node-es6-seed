@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "mocha --require chaiHelper.js --compilers js:mocha-traceur app/**/*.spec.js"
+    "test": "node bootstrap-test.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,11 +13,10 @@
     "cors": "^2.5.3",
     "express": "^4.12.3",
     "media-typer": "^0.3.0",
-    "mime-types": "^2.0.10"
+    "mime-types": "^2.0.10",
+    "traceur": "0.0.89"
   },
   "devDependencies": {
-    "chai": "^2.2.0",
-    "chai-as-promised": "^5.0.0",
-    "mocha-traceur": "^2.1.0"
+    "jasmine-node": "^2.0.0"
   }
 }

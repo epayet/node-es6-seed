@@ -1,6 +1,6 @@
 let WallService = {
     getWall(){
-        return Promise.resolve('test');
+        return Promise.resolve({});
     }
 };
 
