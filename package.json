@@ -9,12 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel": "^5.8.29",
     "body-parser": "^1.12.3",
     "cors": "^2.5.3",
     "express": "^4.12.3",
     "media-typer": "^0.3.0",
-    "mime-types": "^2.0.10",
-    "traceur": "0.0.89"
+    "mime-types": "^2.0.10"
   },
   "devDependencies": {
     "jasmine-node": "^2.0.0",
