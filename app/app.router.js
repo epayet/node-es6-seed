@@ -1,9 +1,9 @@
 import express from 'express';
 
-import wallRouter from './api/wall/wall.router.js';
+import helloRouter from './api/hello/hello.router.js';
 
 let router = new express.Router();
 
-router.use('/wall', wallRouter);
+router.use('/hello', helloRouter);
 
 export default router;

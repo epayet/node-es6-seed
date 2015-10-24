@@ -3,4 +3,4 @@ traceur.require.makeDefault(function(file) {
     return file.indexOf('node_modules') == -1;
 });
 
-require('./test');
+require('./test-unit');
